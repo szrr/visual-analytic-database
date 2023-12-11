@@ -15,7 +15,7 @@ In this project, we provide benchmark of three important tasks in the field of v
 
    Address: https://mega.nz/folder/L7ZHHLLS#T1Fl-rCHkqvaS5jzNza0DA
 
-   The large files in the above URL need to be placed in separate folders to ensure that the program is executed correctly. 
+   The large files in the above URL need to be placed in the corresponding folders to ensure that the program is executed correctly. 
 
    For example, ANNS indices in "vector_src/init_vector" folder should all be placed in the same "vector_src/init_vector" address in this project.
 
