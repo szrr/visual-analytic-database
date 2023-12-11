@@ -1,0 +1,173 @@
+<query>
+<node tokentype="8" tokenname="T_SELECT" line="1" positioninline="0" childcount="6">
+<content>T_SELECT</content>
+<node tokentype="4" tokenname="T_RESERVED" line="1" positioninline="0" childcount="0">
+<content>SELECT</content>
+</node>
+<node tokentype="9" tokenname="T_COLUMN_LIST" line="1" positioninline="7" childcount="3">
+<content>T_COLUMN_LIST</content>
+<node tokentype="10" tokenname="T_SELECT_COLUMN" line="1" positioninline="7" childcount="1">
+<content>T_SELECT_COLUMN</content>
+<node tokentype="64" tokenname="ID" line="1" positioninline="7" childcount="0">
+<content>VIDEO_NAME</content>
+</node>
+</node>
+<node tokentype="44" tokenname="COMMA" line="1" positioninline="17" childcount="0">
+<content>,</content>
+</node>
+<node tokentype="10" tokenname="T_SELECT_COLUMN" line="1" positioninline="19" childcount="11">
+<content>T_SELECT_COLUMN</content>
+<node tokentype="545" tokenname="'VIDEO_SIMILARITY'" line="1" positioninline="19" childcount="0">
+<content>VIDEO_SIMILARITY</content>
+</node>
+<node tokentype="52" tokenname="LPAREN" line="1" positioninline="35" childcount="0">
+<content>(</content>
+</node>
+<node tokentype="536" tokenname="'VIDEO_EXTRACTION'" line="1" positioninline="36" childcount="0">
+<content>VIDEO_EXTRACTION</content>
+</node>
+<node tokentype="52" tokenname="LPAREN" line="1" positioninline="52" childcount="0">
+<content>(</content>
+</node>
+<node tokentype="63" tokenname="PATH" line="1" positioninline="53" childcount="0">
+<content>/home/szr/subquery/video_process/test_video/6578103253609745667.mp4</content>
+</node>
+<node tokentype="53" tokenname="RPAREN" line="1" positioninline="126" childcount="0">
+<content>)</content>
+</node>
+<node tokentype="44" tokenname="COMMA" line="1" positioninline="127" childcount="0">
+<content>,</content>
+</node>
+<node tokentype="64" tokenname="ID" line="1" positioninline="129" childcount="0">
+<content>D_FEATURE</content>
+</node>
+<node tokentype="53" tokenname="RPAREN" line="1" positioninline="138" childcount="0">
+<content>)</content>
+</node>
+<node tokentype="4" tokenname="T_RESERVED" line="1" positioninline="140" childcount="0">
+<content>AS</content>
+</node>
+<node tokentype="64" tokenname="ID" line="1" positioninline="143" childcount="0">
+<content>DIS</content>
+</node>
+</node>
+</node>
+<node tokentype="11" tokenname="T_FROM" line="2" positioninline="0" childcount="2">
+<content>T_FROM</content>
+<node tokentype="4" tokenname="T_RESERVED" line="2" positioninline="0" childcount="0">
+<content>FROM</content>
+</node>
+<node tokentype="64" tokenname="ID" line="2" positioninline="5" childcount="0">
+<content>DATASET_VIDEO</content>
+</node>
+</node>
+<node tokentype="13" tokenname="T_WHERE" line="3" positioninline="0" childcount="6">
+<content>T_WHERE</content>
+<node tokentype="4" tokenname="T_RESERVED" line="3" positioninline="0" childcount="0">
+<content>WHERE</content>
+</node>
+<node tokentype="64" tokenname="ID" line="3" positioninline="6" childcount="0">
+<content>VIDEO_NAME</content>
+</node>
+<node tokentype="4" tokenname="T_RESERVED" line="3" positioninline="17" childcount="0">
+<content>IN</content>
+</node>
+<node tokentype="52" tokenname="LPAREN" line="3" positioninline="20" childcount="0">
+<content>(</content>
+</node>
+<node tokentype="8" tokenname="T_SELECT" line="4" positioninline="4" childcount="4">
+<content>T_SELECT</content>
+<node tokentype="4" tokenname="T_RESERVED" line="4" positioninline="4" childcount="0">
+<content>SELECT</content>
+</node>
+<node tokentype="9" tokenname="T_COLUMN_LIST" line="4" positioninline="11" childcount="1">
+<content>T_COLUMN_LIST</content>
+<node tokentype="10" tokenname="T_SELECT_COLUMN" line="4" positioninline="11" childcount="1">
+<content>T_SELECT_COLUMN</content>
+<node tokentype="64" tokenname="ID" line="4" positioninline="11" childcount="0">
+<content>VIDEO_NAME</content>
+</node>
+</node>
+</node>
+<node tokentype="11" tokenname="T_FROM" line="5" positioninline="4" childcount="2">
+<content>T_FROM</content>
+<node tokentype="4" tokenname="T_RESERVED" line="5" positioninline="4" childcount="0">
+<content>FROM</content>
+</node>
+<node tokentype="64" tokenname="ID" line="5" positioninline="9" childcount="0">
+<content>DATASET_VIDEO</content>
+</node>
+</node>
+<node tokentype="13" tokenname="T_WHERE" line="6" positioninline="4" childcount="12">
+<content>T_WHERE</content>
+<node tokentype="4" tokenname="T_RESERVED" line="6" positioninline="4" childcount="0">
+<content>WHERE</content>
+</node>
+<node tokentype="91" tokenname="'KNN'" line="6" positioninline="10" childcount="0">
+<content>KNN</content>
+</node>
+<node tokentype="52" tokenname="LPAREN" line="6" positioninline="13" childcount="0">
+<content>(</content>
+</node>
+<node tokentype="536" tokenname="'VIDEO_EXTRACTION'" line="6" positioninline="14" childcount="0">
+<content>VIDEO_EXTRACTION</content>
+</node>
+<node tokentype="52" tokenname="LPAREN" line="6" positioninline="30" childcount="0">
+<content>(</content>
+</node>
+<node tokentype="63" tokenname="PATH" line="6" positioninline="31" childcount="0">
+<content>/home/szr/subquery/video_process/test_video/6578103253609745667.mp4</content>
+</node>
+<node tokentype="53" tokenname="RPAREN" line="6" positioninline="104" childcount="0">
+<content>)</content>
+</node>
+<node tokentype="44" tokenname="COMMA" line="6" positioninline="105" childcount="0">
+<content>,</content>
+</node>
+<node tokentype="64" tokenname="ID" line="6" positioninline="107" childcount="0">
+<content>D_FEATURE</content>
+</node>
+<node tokentype="53" tokenname="RPAREN" line="6" positioninline="116" childcount="0">
+<content>)</content>
+</node>
+<node tokentype="71" tokenname="LEQ" line="6" positioninline="118" childcount="0">
+<content>?=</content>
+</node>
+<node tokentype="60" tokenname="NUMBER" line="6" positioninline="121" childcount="0">
+<content>5</content>
+</node>
+</node>
+</node>
+<node tokentype="53" tokenname="RPAREN" line="7" positioninline="0" childcount="0">
+<content>)</content>
+</node>
+</node>
+<node tokentype="15" tokenname="T_GROUP_BY" line="8" positioninline="0" childcount="3">
+<content>T_GROUP_BY</content>
+<node tokentype="4" tokenname="T_RESERVED" line="8" positioninline="0" childcount="0">
+<content>GROUP</content>
+</node>
+<node tokentype="4" tokenname="T_RESERVED" line="8" positioninline="6" childcount="0">
+<content>BY</content>
+</node>
+<node tokentype="64" tokenname="ID" line="8" positioninline="9" childcount="0">
+<content>VIDEO_NAME</content>
+</node>
+</node>
+<node tokentype="19" tokenname="T_ORDER_BY_CLAUSE" line="9" positioninline="0" childcount="3">
+<content>T_ORDER_BY_CLAUSE</content>
+<node tokentype="4" tokenname="T_RESERVED" line="9" positioninline="0" childcount="0">
+<content>ORDER</content>
+</node>
+<node tokentype="4" tokenname="T_RESERVED" line="9" positioninline="6" childcount="0">
+<content>BY</content>
+</node>
+<node tokentype="64" tokenname="ID" line="9" positioninline="9" childcount="0">
+<content>DIS</content>
+</node>
+</node>
+</node>
+<node tokentype="43" tokenname="SEMI" line="10" positioninline="0" childcount="0">
+<content>;</content>
+</node>
+</query>

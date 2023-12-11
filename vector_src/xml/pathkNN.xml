@@ -1,0 +1,68 @@
+<query>
+<node tokentype="8" tokenname="T_SELECT" line="1" positioninline="0" childcount="4">
+<content>T_SELECT</content>
+<node tokentype="4" tokenname="T_RESERVED" line="1" positioninline="0" childcount="0">
+<content>SELECT</content>
+</node>
+<node tokentype="9" tokenname="T_COLUMN_LIST" line="1" positioninline="7" childcount="1">
+<content>T_COLUMN_LIST</content>
+<node tokentype="10" tokenname="T_SELECT_COLUMN" line="1" positioninline="7" childcount="1">
+<content>T_SELECT_COLUMN</content>
+<node tokentype="64" tokenname="ID" line="1" positioninline="7" childcount="0">
+<content>VIDEO_NAME</content>
+</node>
+</node>
+</node>
+<node tokentype="11" tokenname="T_FROM" line="2" positioninline="0" childcount="2">
+<content>T_FROM</content>
+<node tokentype="4" tokenname="T_RESERVED" line="2" positioninline="0" childcount="0">
+<content>FROM</content>
+</node>
+<node tokentype="64" tokenname="ID" line="2" positioninline="5" childcount="0">
+<content>DATASET_VIDEO</content>
+</node>
+</node>
+<node tokentype="13" tokenname="T_WHERE" line="3" positioninline="0" childcount="12">
+<content>T_WHERE</content>
+<node tokentype="4" tokenname="T_RESERVED" line="3" positioninline="0" childcount="0">
+<content>WHERE</content>
+</node>
+<node tokentype="91" tokenname="'KNN'" line="3" positioninline="6" childcount="0">
+<content>KNN</content>
+</node>
+<node tokentype="52" tokenname="LPAREN" line="3" positioninline="9" childcount="0">
+<content>(</content>
+</node>
+<node tokentype="536" tokenname="'VIDEO_EXTRACTION'" line="3" positioninline="10" childcount="0">
+<content>VIDEO_EXTRACTION</content>
+</node>
+<node tokentype="52" tokenname="LPAREN" line="3" positioninline="26" childcount="0">
+<content>(</content>
+</node>
+<node tokentype="63" tokenname="PATH" line="3" positioninline="27" childcount="0">
+<content>/home/szr/subquery/video_process/test_video/6578103253609745667.mp4</content>
+</node>
+<node tokentype="53" tokenname="RPAREN" line="3" positioninline="100" childcount="0">
+<content>)</content>
+</node>
+<node tokentype="44" tokenname="COMMA" line="3" positioninline="101" childcount="0">
+<content>,</content>
+</node>
+<node tokentype="64" tokenname="ID" line="3" positioninline="103" childcount="0">
+<content>D_FEATURE</content>
+</node>
+<node tokentype="53" tokenname="RPAREN" line="3" positioninline="112" childcount="0">
+<content>)</content>
+</node>
+<node tokentype="71" tokenname="LEQ" line="3" positioninline="114" childcount="0">
+<content>?=</content>
+</node>
+<node tokentype="60" tokenname="NUMBER" line="3" positioninline="117" childcount="0">
+<content>5</content>
+</node>
+</node>
+</node>
+<node tokentype="43" tokenname="SEMI" line="4" positioninline="0" childcount="0">
+<content>;</content>
+</node>
+</query>

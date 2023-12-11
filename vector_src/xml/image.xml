@@ -1,0 +1,80 @@
+<query>
+<node tokentype="8" tokenname="T_SELECT" line="1" positioninline="0" childcount="5">
+<content>T_SELECT</content>
+<node tokentype="4" tokenname="T_RESERVED" line="1" positioninline="0" childcount="0">
+<content>SELECT</content>
+</node>
+<node tokentype="9" tokenname="T_COLUMN_LIST" line="1" positioninline="7" childcount="1">
+<content>T_COLUMN_LIST</content>
+<node tokentype="10" tokenname="T_SELECT_COLUMN" line="1" positioninline="7" childcount="11">
+<content>T_SELECT_COLUMN</content>
+<node tokentype="535" tokenname="'DISTANCE'" line="1" positioninline="7" childcount="0">
+<content>DISTANCE</content>
+</node>
+<node tokentype="52" tokenname="LPAREN" line="1" positioninline="15" childcount="0">
+<content>(</content>
+</node>
+<node tokentype="64" tokenname="ID" line="1" positioninline="16" childcount="0">
+<content>F_FEATURE</content>
+</node>
+<node tokentype="44" tokenname="COMMA" line="1" positioninline="25" childcount="0">
+<content>,</content>
+</node>
+<node tokentype="536" tokenname="'EXTRACTION'" line="1" positioninline="27" childcount="0">
+<content>EXTRACTION</content>
+</node>
+<node tokentype="52" tokenname="LPAREN" line="1" positioninline="37" childcount="0">
+<content>(</content>
+</node>
+<node tokentype="63" tokenname="PATH" line="1" positioninline="38" childcount="0">
+<content>/home/szr/frames.png</content>
+</node>
+<node tokentype="53" tokenname="RPAREN" line="1" positioninline="64" childcount="0">
+<content>)</content>
+</node>
+<node tokentype="53" tokenname="RPAREN" line="1" positioninline="65" childcount="0">
+<content>)</content>
+</node>
+<node tokentype="4" tokenname="T_RESERVED" line="1" positioninline="67" childcount="0">
+<content>AS</content>
+</node>
+<node tokentype="64" tokenname="ID" line="1" positioninline="70" childcount="0">
+<content>DIS</content>
+</node>
+</node>
+</node>
+<node tokentype="11" tokenname="T_FROM" line="2" positioninline="0" childcount="2">
+<content>T_FROM</content>
+<node tokentype="4" tokenname="T_RESERVED" line="2" positioninline="0" childcount="0">
+<content>FROM</content>
+</node>
+<node tokentype="64" tokenname="ID" line="2" positioninline="5" childcount="0">
+<content>FRAMES</content>
+</node>
+</node>
+<node tokentype="19" tokenname="T_ORDER_BY_CLAUSE" line="3" positioninline="0" childcount="3">
+<content>T_ORDER_BY_CLAUSE</content>
+<node tokentype="4" tokenname="T_RESERVED" line="3" positioninline="0" childcount="0">
+<content>ORDER</content>
+</node>
+<node tokentype="4" tokenname="T_RESERVED" line="3" positioninline="6" childcount="0">
+<content>BY</content>
+</node>
+<node tokentype="64" tokenname="ID" line="3" positioninline="9" childcount="0">
+<content>DIS</content>
+</node>
+</node>
+<node tokentype="20" tokenname="T_LIMIT_CLAUSE" line="4" positioninline="0" childcount="2">
+<content>T_LIMIT_CLAUSE</content>
+<node tokentype="4" tokenname="T_RESERVED" line="4" positioninline="0" childcount="0">
+<content>LIMIT</content>
+</node>
+<node tokentype="60" tokenname="NUMBER" line="4" positioninline="6" childcount="0">
+<content>50</content>
+</node>
+</node>
+</node>
+<node tokentype="43" tokenname="SEMI" line="5" positioninline="0" childcount="0">
+<content>;</content>
+</node>
+</query>

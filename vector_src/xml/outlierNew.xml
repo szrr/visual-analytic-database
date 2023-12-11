@@ -1,0 +1,239 @@
+<query>
+<node tokentype="8" tokenname="T_SELECT" line="1" positioninline="0" childcount="5">
+<content>T_SELECT</content>
+<node tokentype="4" tokenname="T_RESERVED" line="1" positioninline="0" childcount="0">
+<content>SELECT</content>
+</node>
+<node tokentype="9" tokenname="T_COLUMN_LIST" line="1" positioninline="7" childcount="3">
+<content>T_COLUMN_LIST</content>
+<node tokentype="10" tokenname="T_SELECT_COLUMN" line="1" positioninline="7" childcount="1">
+<content>T_SELECT_COLUMN</content>
+<node tokentype="64" tokenname="ID" line="1" positioninline="7" childcount="0">
+<content>FRAME_ID</content>
+</node>
+</node>
+<node tokentype="44" tokenname="COMMA" line="1" positioninline="15" childcount="0">
+<content>,</content>
+</node>
+<node tokentype="10" tokenname="T_SELECT_COLUMN" line="1" positioninline="17" childcount="4">
+<content>T_SELECT_COLUMN</content>
+<node tokentype="543" tokenname="'OUTLIER_SCORE'" line="1" positioninline="17" childcount="0">
+<content>OUTLIER_SCORE</content>
+</node>
+<node tokentype="52" tokenname="LPAREN" line="1" positioninline="30" childcount="0">
+<content>(</content>
+</node>
+<node tokentype="64" tokenname="ID" line="1" positioninline="31" childcount="0">
+<content>SUM_DIS</content>
+</node>
+<node tokentype="53" tokenname="RPAREN" line="1" positioninline="38" childcount="0">
+<content>)</content>
+</node>
+</node>
+</node>
+<node tokentype="11" tokenname="T_FROM" line="2" positioninline="0" childcount="5">
+<content>T_FROM</content>
+<node tokentype="4" tokenname="T_RESERVED" line="2" positioninline="0" childcount="0">
+<content>FROM</content>
+</node>
+<node tokentype="52" tokenname="LPAREN" line="2" positioninline="4" childcount="0">
+<content>(</content>
+</node>
+<node tokentype="8" tokenname="T_SELECT" line="3" positioninline="4" childcount="4">
+<content>T_SELECT</content>
+<node tokentype="4" tokenname="T_RESERVED" line="3" positioninline="4" childcount="0">
+<content>SELECT</content>
+</node>
+<node tokentype="9" tokenname="T_COLUMN_LIST" line="3" positioninline="11" childcount="5">
+<content>T_COLUMN_LIST</content>
+<node tokentype="10" tokenname="T_SELECT_COLUMN" line="3" positioninline="11" childcount="1">
+<content>T_SELECT_COLUMN</content>
+<node tokentype="64" tokenname="ID" line="3" positioninline="11" childcount="0">
+<content>FRAME_ID</content>
+</node>
+</node>
+<node tokentype="44" tokenname="COMMA" line="3" positioninline="19" childcount="0">
+<content>,</content>
+</node>
+<node tokentype="10" tokenname="T_SELECT_COLUMN" line="3" positioninline="21" childcount="1">
+<content>T_SELECT_COLUMN</content>
+<node tokentype="64" tokenname="ID" line="3" positioninline="21" childcount="0">
+<content>OBJECT_ID</content>
+</node>
+</node>
+<node tokentype="44" tokenname="COMMA" line="3" positioninline="30" childcount="0">
+<content>,</content>
+</node>
+<node tokentype="10" tokenname="T_SELECT_COLUMN" line="3" positioninline="32" childcount="11">
+<content>T_SELECT_COLUMN</content>
+<node tokentype="372" tokenname="'SUM'" line="3" positioninline="32" childcount="0">
+<content>SUM</content>
+</node>
+<node tokentype="52" tokenname="LPAREN" line="3" positioninline="35" childcount="0">
+<content>(</content>
+</node>
+<node tokentype="534" tokenname="'DISTANCE'" line="3" positioninline="36" childcount="0">
+<content>DISTANCE</content>
+</node>
+<node tokentype="52" tokenname="LPAREN" line="3" positioninline="44" childcount="0">
+<content>(</content>
+</node>
+<node tokentype="64" tokenname="ID" line="3" positioninline="45" childcount="0">
+<content>TEST_FEATURE</content>
+</node>
+<node tokentype="44" tokenname="COMMA" line="3" positioninline="57" childcount="0">
+<content>,</content>
+</node>
+<node tokentype="64" tokenname="ID" line="3" positioninline="59" childcount="0">
+<content>TRAIN_FEATURE</content>
+</node>
+<node tokentype="53" tokenname="RPAREN" line="3" positioninline="72" childcount="0">
+<content>)</content>
+</node>
+<node tokentype="53" tokenname="RPAREN" line="3" positioninline="73" childcount="0">
+<content>)</content>
+</node>
+<node tokentype="4" tokenname="T_RESERVED" line="3" positioninline="75" childcount="0">
+<content>AS</content>
+</node>
+<node tokentype="64" tokenname="ID" line="3" positioninline="78" childcount="0">
+<content>SUM_DIS</content>
+</node>
+</node>
+</node>
+<node tokentype="11" tokenname="T_FROM" line="4" positioninline="4" childcount="13">
+<content>T_FROM</content>
+<node tokentype="4" tokenname="T_RESERVED" line="4" positioninline="4" childcount="0">
+<content>FROM</content>
+</node>
+<node tokentype="64" tokenname="ID" line="4" positioninline="9" childcount="0">
+<content>TEST_VIDEO</content>
+</node>
+<node tokentype="91" tokenname="'KNN'" line="4" positioninline="20" childcount="0">
+<content>KNN</content>
+</node>
+<node tokentype="52" tokenname="LPAREN" line="4" positioninline="23" childcount="0">
+<content>(</content>
+</node>
+<node tokentype="92" tokenname="'K='" line="4" positioninline="24" childcount="0">
+<content>K=</content>
+</node>
+<node tokentype="60" tokenname="NUMBER" line="4" positioninline="26" childcount="0">
+<content>10</content>
+</node>
+<node tokentype="53" tokenname="RPAREN" line="4" positioninline="28" childcount="0">
+<content>)</content>
+</node>
+<node tokentype="4" tokenname="T_RESERVED" line="4" positioninline="30" childcount="0">
+<content>JOIN</content>
+</node>
+<node tokentype="64" tokenname="ID" line="4" positioninline="35" childcount="0">
+<content>TRAIN_VIDEO</content>
+</node>
+<node tokentype="4" tokenname="T_RESERVED" line="4" positioninline="47" childcount="0">
+<content>ON</content>
+</node>
+<node tokentype="64" tokenname="ID" line="4" positioninline="50" childcount="0">
+<content>TEST_FEATURE</content>
+</node>
+<node tokentype="66" tokenname="EQ" line="4" positioninline="62" childcount="0">
+<content>=</content>
+</node>
+<node tokentype="64" tokenname="ID" line="4" positioninline="63" childcount="0">
+<content>TRAIN_FEATURE</content>
+</node>
+</node>
+<node tokentype="15" tokenname="T_GROUP_BY" line="5" positioninline="4" childcount="5">
+<content>T_GROUP_BY</content>
+<node tokentype="4" tokenname="T_RESERVED" line="5" positioninline="4" childcount="0">
+<content>GROUP</content>
+</node>
+<node tokentype="4" tokenname="T_RESERVED" line="5" positioninline="10" childcount="0">
+<content>BY</content>
+</node>
+<node tokentype="64" tokenname="ID" line="5" positioninline="13" childcount="0">
+<content>FRAME_ID</content>
+</node>
+<node tokentype="44" tokenname="COMMA" line="5" positioninline="21" childcount="0">
+<content>,</content>
+</node>
+<node tokentype="64" tokenname="ID" line="5" positioninline="23" childcount="0">
+<content>OBJECT_ID</content>
+</node>
+</node>
+</node>
+<node tokentype="53" tokenname="RPAREN" line="5" positioninline="32" childcount="0">
+<content>)</content>
+</node>
+<node tokentype="64" tokenname="ID" line="5" positioninline="34" childcount="0">
+<content>TEST_OBJECTS</content>
+</node>
+</node>
+<node tokentype="13" tokenname="T_WHERE" line="6" positioninline="0" childcount="6">
+<content>T_WHERE</content>
+<node tokentype="4" tokenname="T_RESERVED" line="6" positioninline="0" childcount="0">
+<content>WHERE</content>
+</node>
+<node tokentype="64" tokenname="ID" line="6" positioninline="6" childcount="0">
+<content>SUM_DIS</content>
+</node>
+<node tokentype="68" tokenname="GTH" line="6" positioninline="14" childcount="0">
+<content>?</content>
+</node>
+<node tokentype="52" tokenname="LPAREN" line="6" positioninline="16" childcount="0">
+<content>(</content>
+</node>
+<node tokentype="8" tokenname="T_SELECT" line="7" positioninline="4" childcount="3">
+<content>T_SELECT</content>
+<node tokentype="4" tokenname="T_RESERVED" line="7" positioninline="4" childcount="0">
+<content>SELECT</content>
+</node>
+<node tokentype="9" tokenname="T_COLUMN_LIST" line="7" positioninline="11" childcount="1">
+<content>T_COLUMN_LIST</content>
+<node tokentype="10" tokenname="T_SELECT_COLUMN" line="7" positioninline="11" childcount="4">
+<content>T_SELECT_COLUMN</content>
+<node tokentype="542" tokenname="'OUTLIER_LINE'" line="7" positioninline="11" childcount="0">
+<content>OUTLIER_LINE</content>
+</node>
+<node tokentype="52" tokenname="LPAREN" line="7" positioninline="23" childcount="0">
+<content>(</content>
+</node>
+<node tokentype="64" tokenname="ID" line="7" positioninline="24" childcount="0">
+<content>TRAIN_FEATURE</content>
+</node>
+<node tokentype="53" tokenname="RPAREN" line="7" positioninline="37" childcount="0">
+<content>)</content>
+</node>
+</node>
+</node>
+<node tokentype="11" tokenname="T_FROM" line="8" positioninline="4" childcount="2">
+<content>T_FROM</content>
+<node tokentype="4" tokenname="T_RESERVED" line="8" positioninline="4" childcount="0">
+<content>FROM</content>
+</node>
+<node tokentype="64" tokenname="ID" line="8" positioninline="9" childcount="0">
+<content>TRAIN_VIDEO</content>
+</node>
+</node>
+</node>
+<node tokentype="53" tokenname="RPAREN" line="8" positioninline="20" childcount="0">
+<content>)</content>
+</node>
+</node>
+<node tokentype="15" tokenname="T_GROUP_BY" line="9" positioninline="0" childcount="3">
+<content>T_GROUP_BY</content>
+<node tokentype="4" tokenname="T_RESERVED" line="9" positioninline="0" childcount="0">
+<content>GROUP</content>
+</node>
+<node tokentype="4" tokenname="T_RESERVED" line="9" positioninline="6" childcount="0">
+<content>BY</content>
+</node>
+<node tokentype="64" tokenname="ID" line="9" positioninline="9" childcount="0">
+<content>FRAME_ID</content>
+</node>
+</node>
+</node>
+<node tokentype="43" tokenname="SEMI" line="11" positioninline="0" childcount="0">
+<content>;</content>
+</node>
+</query>
